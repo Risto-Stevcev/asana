@@ -1,0 +1,13 @@
+body  { text-align: center; }
+img#pose { width: 40%; } 
+
+ul#sequences { 
+  position: absolute; 
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+ul#sequences li { cursor: pointer; }
+ul#sequences li:hover { text-decoration: underline; }
+ul#sequences li:active { color: gray; }
